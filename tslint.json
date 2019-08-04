@@ -1,0 +1,15 @@
+{ 
+    "defaultServerity": "error",
+    "extends": [
+      "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+      "trailing-comma": [ false ],
+      "no-console": [false, "log", "error"],
+      "object-literal-sort-keys": false,
+      "ordered-imports": false,
+      "no-var-requires": false
+    },
+    "rulesDirectory": []
+  }

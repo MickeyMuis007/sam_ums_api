@@ -1,0 +1,34 @@
+{
+  "name": "sam_ums_api",
+  "version": "1.0.0",
+  "description": "Share A Meal User Managemt Server",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:dev": "tsc -w",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MickeyMuis007/sam_ums_api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MickeyMuis007/sam_ums_api/issues"
+  },
+  "homepage": "https://github.com/MickeyMuis007/sam_ums_api#readme",
+  "devDependencies": {
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^4.17.0",
+    "@types/lodash": "^4.14.136",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  }
+}
