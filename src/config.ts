@@ -1,5 +1,3 @@
-// const _ = require("loadash");
-
 import _ from "lodash";
 
 

@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "build:dev": "tsc -w",
-    "start": "node ."
+    "start": "node .",
+    "start:dev": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -20,15 +21,24 @@
   },
   "homepage": "https://github.com/MickeyMuis007/sam_ums_api#readme",
   "devDependencies": {
+    "@types/colors": "^1.2.1",
     "@types/dotenv": "^6.1.1",
     "@types/express": "^4.17.0",
     "@types/lodash": "^4.14.136",
+    "@types/mongoose": "^5.5.12",
+    "@types/object-path": "^0.11.0",
+    "nodemon": "^1.19.1",
     "tslint": "^5.18.0",
     "typescript": "^3.5.3"
   },
   "dependencies": {
+    "colors": "^1.3.3",
     "dotenv": "^8.0.0",
     "express": "^4.17.1",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.15",
+    "mongoose": "^5.6.9",
+    "object-path": "^0.11.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }

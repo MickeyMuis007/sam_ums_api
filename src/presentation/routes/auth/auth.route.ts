@@ -1,0 +1,11 @@
+import express from "express";
+
+import { AuthController } from "../../controllers/auth/auth.controller";
+
+const authRouter = express.Router();
+
+const authController = new AuthController();
+
+authRouter.get("/", authController.get);
+
+export default authRouter;
